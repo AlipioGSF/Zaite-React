@@ -1,0 +1,42 @@
+#navMobile{
+    display: none;
+    min-height: 100vh;
+    min-width: 40vw;
+    position:absolute;
+    top: 5rem;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-top: 1rem;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.377);
+}
+
+#navMobile a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+
+@keyframes hoverOption {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.line{
+    width: 0;
+    height: 3px;
+    background-color: #0a773b;
+    border-radius: 999px;
+}
+
+.effect:hover .line{
+    animation: hoverOption forwards 300ms;
+}

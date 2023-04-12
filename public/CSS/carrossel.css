@@ -1,0 +1,61 @@
+#carrosselLocal{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.carrossel{
+    position: relative;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textLocal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textCarrossel{
+    font-size: 3rem;
+    color: white
+}
+
+#buttonLocal{
+    margin: 0.8rem auto;
+    display: flex;
+    gap: 1rem;
+}
+.btnCarrossel{
+    background-color: transparent;
+    border-radius: 99px;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+#imageLocal{
+    width: 100%;
+}
+
+@media (max-width: 580px) {
+    #imageLocal{
+        min-width: 100vw;
+    }
+    #textLocal{
+        position: absolute;
+        min-width: 100vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #textCarrossel{
+        font-size: 2rem;
+        color: white
+    }
+}

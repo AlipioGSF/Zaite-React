@@ -5,39 +5,82 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="./CSS/style.css">
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Zaite Test</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <header id="header">
+      <img src="./img/Logo1.png"/>
+      <nav id="navbar">
+          <div class="effect"><a href="#">A Empresa</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Soluções</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Equipe</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Notícias</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Clientes</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Parceiros</a><div class="line"></div></div>
+          <div class="effect"><a href="#">Eventos</a><div class="line"></div></div>
+      </nav>
+      <button id="menu"></button>
+  </header>
+  <hr>
+  <section id="carrosselLocal">
+      <div class="carrossel">
+          <img id="imageLocal" src="./img/banner1.png">
+          <div id="textLocal">
+              <h1 id="textCarrossel"></h1>
+          </div>
+      </div>
+      <div id="buttonLocal">
+      </div>
+  </section>
+  <h2 id="sobre"></h2>
+  <section id="noticias">
+      <h2>NOTÍCIAS</h2>
+      <div id="localNoticias">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      </div>
+  </section>
+  <section id="clientes">
+      
+      <h2>CLIENTES</h2>
+      <div id="clientesLocal"></div>
+  </section>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+
+  <footer>
+      <div class="newsletter">
+          <p> Inscreva-se para se manter informado sobre as novidades e promoções da Zaite</p>
+          <form action="#" method="post">
+              <input type="emai" name="emailNewsletter" id="emailNewsletter" placeholder="E-mail">
+              <button>Receber NEWSLETTER</button>
+          </form>
+      </div>
+      <div class="infoZaite">
+          <div class="dados">
+              <p>Zaite Tecnologia | Rua Jener de Souza 975, sala 103-Derby</p>
+              <p>Recife - PE CEP: 52.010-130 |CNPJ: 04.509.456/0001-32</p>
+              <p>Tel: 81 3465.6540 | zaite@zaite.com.br</p>
+          </div>
+          <img src="./img/zaiteLogoRodape.png" alt="Z verde logo da Zaite">
+      </div>
+  </footer>
+  <nav id="navMobile">
+      <div class="effect"><a href="#">A Empresa</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Soluções</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Equipe</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Notícias</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Clientes</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Parceiros</a><div class="line"></div></div>
+      <div class="effect"><a href="#">Eventos</a><div class="line"></div></div>
+  </nav>
+
+  <script src="%PUBLIC_URL%/JS/carrossel.js"></script>
+  <script src="%PUBLIC_URL%/JS/texts.js"></script>
+  <script src="%PUBLIC_URL%/JS/noticias.js"></script>
+  <script src="%PUBLIC_URL%/JS/menu.js"></script>
   </body>
 </html>

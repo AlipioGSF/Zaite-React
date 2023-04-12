@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import './header.css';
+@import './carrossel.css';
+@import './textos.css';
+@import './noticias.css';
+@import './footer.css';
+@import './mobile.css';
+@import './clientes.css';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+section h2,section h3{
+    color: green;
+    font-weight: 400;
+}
+
+
+header, #sobre, #carrosselLocal, #noticias,#clientes, footer{
+    max-width: 60vw;
+}
+@media (max-width: 580px) {
+    header, #sobre, #noticias,#clientes, footer{
+        min-width: calc(100vw - 4rem );
+    }
+}

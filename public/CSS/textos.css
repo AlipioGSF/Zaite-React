@@ -1,0 +1,9 @@
+#sobre{
+    width: 50vw;
+    margin: auto;
+}
+
+#sobre h2{
+    font-size: 1.2rem;
+    text-align: center;
+}

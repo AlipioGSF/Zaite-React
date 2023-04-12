@@ -1,0 +1,23 @@
+#clientes{
+    width: 60vw;
+    margin: auto;
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.imgCliente{
+    width:calc(60vw/6);
+    min-width: 8rem;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+@media (max-width: 580px) {
+    .imgCliente{
+        width: 30%;
+    }
+}

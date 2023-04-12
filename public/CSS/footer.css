@@ -1,0 +1,66 @@
+footer{
+    padding-top: 1rem;
+    border-top: 1px solid rgb(109, 109, 109);
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    align-items: flex-end;
+}
+
+.newsletter form input{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.newsletter form button{
+    border: none;
+    width: fit-content;
+    background-color: transparent;
+    color: green;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.infoZaite{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.dados{
+    max-width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    word-wrap: break-word;
+}
+
+@media (max-width: 580px) {
+    .infoZaite{
+        width: 100%;
+    }
+    .dados{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
