@@ -2,7 +2,8 @@ import React from 'react';
 
 function App() {
 
-  const [clients, setClientes] = React.useState([{"id":"1","name":"3A Tecnologia","description":"O site traz aspectos institucionais, mas procurar apresentar com detalhes as caracter\u00edsticas dos produtos.","brand":"https:\/\/zaite.com.br\/arqConteudo\/arqProjetos\/3a.png"},
+  const [clients, setClientes] = React.useState([
+    {"id":"1","name":"3A Tecnologia","description":"O site traz aspectos institucionais, mas procurar apresentar com detalhes as caracter\u00edsticas dos produtos.","brand":"https:\/\/zaite.com.br\/arqConteudo\/arqProjetos\/3a.png"},
   {"id":"2","name":"AABB Recife","description":"Portal com diversas informa\u00e7\u00f5es sobre as atividades do Clube. H\u00e1 no portal uma \u00e1rea exclusiva para o associado, contendo como principal fun\u00e7\u00e3o a impress\u00e3o do boleto da mensalidade.","brand":"https:\/\/zaite.com.br\/arqConteudo\/arqProjetos\/aabb.png"},
   {"id":"3","name":"ABCC","description":"Site da ABCC com informa\u00e7\u00f5es da entidade, seus projetos e as mat\u00e9rias publicadas na revista da Associa\u00e7\u00e3o. Al\u00e9m do site, j\u00e1 foram desenvolvidas alguns sistemas: patrim\u00f4nio,financeiro e aulas.","brand":"https:\/\/zaite.com.br\/arqConteudo\/arqProjetos\/abcc.png"},
   {"id":"346","name":"Ackta Tecnologia","description":"Desenvolvimento do site da Ackta, empresa de tecnologia de SP","brand":"https:\/\/zaite.com.br\/arqConteudo\/arqProjetos\/ackta.png"},
